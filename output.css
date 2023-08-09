@@ -757,6 +757,14 @@ h6 {
   width: 100%;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
 .min-w-\[195px\] {
   min-width: 195px;
 }
@@ -993,6 +1001,11 @@ h6 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -1153,5 +1166,9 @@ h6 {
 @media (min-width: 2000px) {
   .min-\[2000px\]\:absolute {
     position: absolute;
+  }
+
+  .min-\[2000px\]\:min-h-screen {
+    min-height: 100vh;
   }
 }
