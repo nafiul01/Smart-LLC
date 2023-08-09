@@ -1157,6 +1157,14 @@ h6 {
     min-width: 300px;
   }
 
+  .\32xl\:min-w-\[290px\] {
+    min-width: 290px;
+  }
+
+  .\32xl\:min-w-\[280px\] {
+    min-width: 280px;
+  }
+
   .\32xl\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
